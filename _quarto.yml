@@ -10,10 +10,12 @@ website:
   page-footer: "Made with ❤️ and Quarto"
   navbar:
     left:
-      - text: Projects
+      - text: Projects (Example)
         href: projects.qmd
       - text: Reading List
         href: reading_list.qmd
+      - text: Talks (Example)
+      - href: talks.qmd
       - text: CV
         href: CV.pdf
     tools: 
