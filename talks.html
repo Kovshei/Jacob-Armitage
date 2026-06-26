@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Listing Example - Projects – Jacob Armitage</title>
+<title>Listing Example - Talks – Jacob Armitage</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-venue',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-description","listing-venue"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -120,12 +120,11 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Listing Example - Projects – Jacob Armitage">
-<meta property="og:image" content="https://kovshei.github.io/Jacob-Armitage/projects/images/photo-1601698832159-665cbefd11da.jpg">
+<meta property="og:title" content="Listing Example - Talks – Jacob Armitage">
 <meta property="og:site_name" content="Jacob Armitage">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -304,7 +303,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects (Example)</span></a>
   </li>  
   <li class="nav-item">
@@ -317,7 +316,7 @@ window.Quarto = {
     </span>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link active" href="./talks.html" aria-current="page"> 
 <span class="menu-text">Listing Example - Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -337,16 +336,14 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGFzaGJvYXJkcw==">Dashboards <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2Vvc3BhdGlhbA==">Geospatial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW9U">IoT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVtb3RlJTIwU2Vuc2luZw==">Remote Sensing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGltZSUyMFNlcmllcw==">Time Series <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Listing Example - Projects</h1>
+<h1 class="title">Listing Example - Talks</h1>
 </div>
 
 
@@ -367,99 +364,81 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="SW9UJTJDVGltZSUyMFNlcmllcyUyQ0Rhc2hib2FyZHM=" data-listing-file-modified-sort="1782512975699" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<a href="./projects/coastal-sensors.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/images/photo-1601698832159-665cbefd11da.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Coastal Sensor Network
-</h5>
-<div class="listing-categories">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('SW9U'); return false;">IoT</div>
+<th>
+Date
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VGltZSUyMFNlcmllcw=='); return false;">Time Series</div>
+<th>
+Title
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('RGFzaGJvYXJkcw=='); return false;">Dashboards</div>
+<th>
+Description
+</th>
 
-</div>
-<div class="card-text listing-description delink">
-<p>Real-time monitoring of water quality along the Oregon coast using a fleet of low-cost IoT sensors.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<th>
+venue
+</th>
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="R2Vvc3BhdGlhbCUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1JlbW90ZSUyMFNlbnNpbmc=" data-listing-file-modified-sort="1782512975700" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<a href="./projects/forest-canopy.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/images/photo-1530563937443-1f02f662fa5c.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Forest Canopy Mapping
-</h5>
-<div class="listing-categories">
+</tr>
+</thead>
+<tbody class="list">
 
-<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbA=='); return false;">Geospatial</div>
+<tr data-index="0" data-listing-date-sort="1741762800000" data-listing-title-sort="From Notebook to Production: Deploying ML Models with Confidence">
+<td>
+<span class="listing-date">Mar 12, 2025</span>
+</td>
+<td>
+<a href="https://example.com/talks/notebook-to-production" class="title listing-title">From Notebook to Production: Deploying ML Models with Confidence</a>
+</td>
+<td>
+<span class="listing-description">A practical walkthrough of taking a model out of a Jupyter notebook and into a reproducible, monitored production pipeline—covering containers, CI/CD, and drift detection.</span>
+</td>
+<td>
+<span class="listing-venue">PyData Seattle</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UmVtb3RlJTIwU2Vuc2luZw=='); return false;">Remote Sensing</div>
+<tr data-index="1" data-listing-date-sort="1731052800000" data-listing-title-sort="The Art of the Reproducible Report">
+<td>
+<span class="listing-date">Nov 8, 2024</span>
+</td>
+<td>
+<a href="https://example.com/talks/reproducible-report" class="title listing-title">The Art of the Reproducible Report</a>
+</td>
+<td>
+<span class="listing-description">Why your analysis should run end-to-end with a single command, and how literate programming tools like Quarto make stakeholder-ready reports painless.</span>
+</td>
+<td>
+<span class="listing-venue">posit::conf</span>
+</td>
 
-</div>
-<div class="card-text listing-description delink">
-<p>Estimating canopy cover and forest health from satellite imagery with a reproducible geospatial pipeline.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+</tr>
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDVGltZSUyMFNlcmllcyUyQ0ZvcmVjYXN0aW5n" data-listing-file-modified-sort="1782512975710" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<a href="./projects/watershed-forecasting.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/images/photo-1534260574464-1974fc1e6727.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Watershed Flow Forecasting
-</h5>
-<div class="listing-categories">
+<tr data-index="2" data-listing-date-sort="1717484400000" data-listing-title-sort="Causal Inference for the Skeptical Analyst">
+<td>
+<span class="listing-date">Jun 4, 2024</span>
+</td>
+<td>
+<a href="https://example.com/talks/causal-inference-skeptical-analyst" class="title listing-title">Causal Inference for the Skeptical Analyst</a>
+</td>
+<td>
+<span class="listing-description">Correlation isn’t causation, but we can do better than throwing up our hands. An accessible tour of difference-in-differences, propensity scores, and when to trust them.</span>
+</td>
+<td>
+<span class="listing-venue">useR! Conference</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VGltZSUyMFNlcmllcw=='); return false;">Time Series</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Rm9yZWNhc3Rpbmc='); return false;">Forecasting</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Predicting seasonal streamflow across the Cascades to support water management and flood planning.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

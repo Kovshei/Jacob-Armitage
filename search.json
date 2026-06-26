@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "reading_list.html",
-    "href": "reading_list.html",
-    "title": "Reading List",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Listing Example - Talks",
     "section": "",
-    "text": "Here are some things that I am reading or want to read."
+    "text": "Date\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nvenue\n\n\n\n\n\n\n\n\nMar 12, 2025\n\n\nFrom Notebook to Production: Deploying ML Models with Confidence\n\n\nA practical walkthrough of taking a model out of a Jupyter notebook and into a reproducible, monitored production pipeline—covering containers, CI/CD, and drift detection.\n\n\nPyData Seattle\n\n\n\n\n\n\nNov 8, 2024\n\n\nThe Art of the Reproducible Report\n\n\nWhy your analysis should run end-to-end with a single command, and how literate programming tools like Quarto make stakeholder-ready reports painless.\n\n\nposit::conf\n\n\n\n\n\n\nJun 4, 2024\n\n\nCausal Inference for the Skeptical Analyst\n\n\nCorrelation isn’t causation, but we can do better than throwing up our hands. An accessible tour of difference-in-differences, propensity scores, and when to trust them.\n\n\nuseR! Conference\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Listing Example - Projects",
+    "section": "",
+    "text": "Coastal Sensor Network\n\n\n\nIoT\n\nTime Series\n\nDashboards\n\n\n\nReal-time monitoring of water quality along the Oregon coast using a fleet of low-cost IoT sensors.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest Canopy Mapping\n\n\n\nGeospatial\n\nMachine Learning\n\nRemote Sensing\n\n\n\nEstimating canopy cover and forest health from satellite imagery with a reproducible geospatial pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWatershed Flow Forecasting\n\n\n\nMachine Learning\n\nTime Series\n\nForecasting\n\n\n\nPredicting seasonal streamflow across the Cascades to support water management and flood planning.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/forest-canopy.html",
+    "href": "projects/forest-canopy.html",
+    "title": "Forest Canopy Mapping",
+    "section": "",
+    "text": "Placeholder content. This project classifies multispectral imagery to map canopy density and flag early signs of stress, packaged as a reproducible pipeline that re-runs as new imagery lands.\nPhoto by Dale Nibbe on Unsplash."
+  },
+  {
+    "objectID": "projects/forest-canopy.html#overview",
+    "href": "projects/forest-canopy.html#overview",
+    "title": "Forest Canopy Mapping",
+    "section": "",
+    "text": "Placeholder content. This project classifies multispectral imagery to map canopy density and flag early signs of stress, packaged as a reproducible pipeline that re-runs as new imagery lands.\nPhoto by Dale Nibbe on Unsplash."
   },
   {
     "objectID": "index.html",
@@ -28,10 +49,38 @@
     "text": "Experience\nAssessment and Evaluation Epidemiologist  - Thurston County Public Health and Social Services | March 2025 - Current\nResearch Coordinator - Seattle Epidemiological Research and Information Center, Department of Veterans Affairs | May 2024 - March 2025\nGraduate Teaching Assistant - University of Washington Institute for Public Health Genetics | March 2023 - June 2023\nGraduate Research Assistant - University of Washington Population Health Initiative | June 2022 - Dec 2022\nMolecular Biologist - Sequencing Core - Delaware Department of Health and Social Services | July 2020 - July 2021"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "projects/coastal-sensors.html",
+    "href": "projects/coastal-sensors.html",
+    "title": "Coastal Sensor Network",
     "section": "",
-    "text": "Some Stuff that I have done"
+    "text": "Placeholder content. This project deploys a network of sensors that stream temperature, salinity, and turbidity readings into a central pipeline, surfaced through a live dashboard for researchers and the public.\nPhoto by Karsten Winegeart on Unsplash."
+  },
+  {
+    "objectID": "projects/coastal-sensors.html#overview",
+    "href": "projects/coastal-sensors.html#overview",
+    "title": "Coastal Sensor Network",
+    "section": "",
+    "text": "Placeholder content. This project deploys a network of sensors that stream temperature, salinity, and turbidity readings into a central pipeline, surfaced through a live dashboard for researchers and the public.\nPhoto by Karsten Winegeart on Unsplash."
+  },
+  {
+    "objectID": "projects/watershed-forecasting.html",
+    "href": "projects/watershed-forecasting.html",
+    "title": "Watershed Flow Forecasting",
+    "section": "",
+    "text": "Placeholder content. A forecasting model blends snowpack, precipitation, and historical gauge data to project streamflow weeks ahead, with uncertainty bands that planners can actually act on.\nPhoto by Cristofer Maximilian on Unsplash."
+  },
+  {
+    "objectID": "projects/watershed-forecasting.html#overview",
+    "href": "projects/watershed-forecasting.html#overview",
+    "title": "Watershed Flow Forecasting",
+    "section": "",
+    "text": "Placeholder content. A forecasting model blends snowpack, precipitation, and historical gauge data to project streamflow weeks ahead, with uncertainty bands that planners can actually act on.\nPhoto by Cristofer Maximilian on Unsplash."
+  },
+  {
+    "objectID": "reading_list.html",
+    "href": "reading_list.html",
+    "title": "Reading List",
+    "section": "",
+    "text": "Here are some things that I am reading or want to read."
   }
 ]

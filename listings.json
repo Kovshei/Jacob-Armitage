@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/talks.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/coastal-sensors.html",
+      "/projects/forest-canopy.html",
+      "/projects/watershed-forecasting.html"
+    ]
+  }
+]

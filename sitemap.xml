@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kovshei.github.io/Jacob-Armitage/reading_list.html</loc>
-    <lastmod>2026-06-26T22:29:35.886Z</lastmod>
+    <loc>https://kovshei.github.io/Jacob-Armitage/talks.html</loc>
+    <lastmod>2026-06-26T23:15:57.748Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kovshei.github.io/Jacob-Armitage/projects.html</loc>
+    <lastmod>2026-06-26T23:20:48.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kovshei.github.io/Jacob-Armitage/projects/forest-canopy.html</loc>
+    <lastmod>2026-06-26T22:29:35.700Z</lastmod>
   </url>
   <url>
     <loc>https://kovshei.github.io/Jacob-Armitage/index.html</loc>
     <lastmod>2026-06-26T22:29:35.862Z</lastmod>
   </url>
   <url>
-    <loc>https://kovshei.github.io/Jacob-Armitage/projects.html</loc>
-    <lastmod>2026-06-26T22:29:35.885Z</lastmod>
+    <loc>https://kovshei.github.io/Jacob-Armitage/projects/coastal-sensors.html</loc>
+    <lastmod>2026-06-26T22:29:35.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kovshei.github.io/Jacob-Armitage/projects/watershed-forecasting.html</loc>
+    <lastmod>2026-06-26T22:29:35.710Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kovshei.github.io/Jacob-Armitage/reading_list.html</loc>
+    <lastmod>2026-06-26T22:29:35.886Z</lastmod>
   </url>
 </urlset>
