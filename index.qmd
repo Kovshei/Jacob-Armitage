@@ -1,0 +1,36 @@
+---
+title: "Jacob Armitage"
+subtitle: "Population Health Scientist"
+# `profile.jpg` photo by Reed Geiger on https://unsplash.com
+image: profile_website.jpg
+image-alt: "Sky replacement of a mountain in the olympics"
+about: # https://quarto.org/docs/websites/website-about.html
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Kovshei
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jacob-armitage-5b2029158
+---
+
+Jacob Armitage is an Epidemiologist interested in Population Health Science, Demography, and their interactions with the Climate Crisis.
+
+## Education
+
+**University of Washington** - M.S. Genetic Epidemiology \| June 2023
+
+**Rutgers University** - B.S. Biotechnology \| May 2020
+
+## Experience
+
+**Assessment and Evaluation Epidemiologist**  - Thurston County Public Health and Social Services \| March 2025 - Current
+
+**Research Coordinator** - Seattle Epidemiological Research and Information Center, Department of Veterans Affairs \| May 2024 - March 2025
+
+**Graduate Teaching Assistant** - University of Washington Institute for Public Health Genetics \| March 2023 - June 2023
+
+**Graduate Research Assistant** - University of Washington Population Health Initiative \| June 2022 - Dec 2022
+
+**Molecular Biologist - Sequencing Core** - Delaware Department of Health and Social Services \| July 2020 - July 2021

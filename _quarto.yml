@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Jacob Armitage"
+  search: false
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    left:
+      - text: Projects
+        href: projects.qmd
+      - text: Reading List
+        href: reading_list.qmd
+      - text: CV
+        href: CV.pdf
+    tools: 
+      - icon: github
+        text: Github
+        href: https://github.com/Kovshei
+
+format:
+  html:
+    theme: [styles.scss, brand]
+    axe:
+      output: document
+    
