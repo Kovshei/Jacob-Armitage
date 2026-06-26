@@ -15,7 +15,7 @@ website:
       - text: Reading List
         href: reading_list.qmd
       - text: Listing Example - Talks
-      - href: talks.qmd
+        href: talks.qmd
       - text: CV
         href: CV.pdf
     tools: 
