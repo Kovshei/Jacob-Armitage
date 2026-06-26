@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Jacob Armitage"
+  description: "Jacob Armitage Personal Website"
+  site-url: https://kovshei.github.io/Jacob-Armitage/
   search: false
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "Made with ❤️ and Quarto"
