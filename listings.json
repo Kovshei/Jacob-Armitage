@@ -6,9 +6,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/coastal-sensors.html",
-      "/projects/forest-canopy.html",
-      "/projects/watershed-forecasting.html"
+      "/projects/VIP-Index.html",
+      "/projects/WA-CHS-ETL.html"
     ]
   }
 ]
