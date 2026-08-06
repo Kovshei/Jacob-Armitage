@@ -1,0 +1,8 @@
+---
+title: "WA Mortality Record Harmonization"
+description: "A collaborative project to harmonize WA mortality records across years and data systems"
+---
+
+## Overview
+
+WA Local Health Departments are provided death certificate data by the WA DOH Center for Health Statistics (CHS), but the format of these data files has changed across years and data systems making historical analysis difficult. This project created an ETL system to create a harmonized multi-year mortality file which can be used for in-depth population health analysis from 2010 - present. This project was completed with select members of the [Washington State LHJ Analytic Resources Group](https://github.com/WA-LHJ-Analytic-Resources).

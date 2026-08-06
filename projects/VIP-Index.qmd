@@ -1,0 +1,14 @@
+---
+title: "Targeting Key Factors to Realizing Improved Global Vaccination Coverage"
+description: "Project completed while employed as a Graduate Research Assistant with UW Population Health Initiative"
+image: images\Vaccination-Coverage_500x500.jpg
+bibliography: references.bib
+---
+
+## Overview
+
+Vaccination coverage rates are affected by multiple and varied societal and personal factors​. To better understand these factors at a global scale, the University of Washington Population Health Initiative led an interdisciplinary research team that undertook a study that ended in February 2023 to better understand how countries can realistically improve vaccination coverage, and how such improvement will affect the overall burden of vaccine-preventable diseases in that country.
+
+#### [Project Home Page](https://www.washington.edu/populationhealth/research/boosting-vaccination-coverage/)
+
+Related Publication: [@rioscasas2024]

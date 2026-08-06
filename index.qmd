@@ -1,6 +1,6 @@
 ---
 title: "Jacob Armitage"
-subtitle: "Population Health Scientist"
+subtitle: "Welcome to my personal page"
 # `profile.jpg` photo by Reed Geiger on https://unsplash.com
 image: profile_website.jpg
 image-alt: "Sky replacement of a mountain in the olympics"
@@ -15,7 +15,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://www.linkedin.com/in/jacob-armitage-5b2029158
 ---
 
-Jacob Armitage is an Epidemiologist interested in Population Health Science, Demography, and their interactions with the Climate Crisis.
+Jacob Armitage currently works as a Epidemiologist and has research interests in Population Health Science, Demography, and the health and demographic outcomes of climate related exposures.
 
 ## Education
 

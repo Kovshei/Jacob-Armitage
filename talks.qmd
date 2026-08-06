@@ -1,5 +1,6 @@
 ---
 title: Listing Example - Talks
+draft: true
 listing:
   contents: talks.yml
   type: table

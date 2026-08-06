@@ -1,5 +1,6 @@
 ---
-title: Listing Example - Projects
+title: Projects
+draft: false
 listing:
   contents: projects
   type: grid
