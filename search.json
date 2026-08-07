@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Targeting Key Factors to Realizing Improved Global Vaccination Coverage\n\n\nProject completed while employed as a Graduate Research Assistant with UW Population Health Initiative\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWA Mortality Record Harmonization\n\n\nA collaborative project to harmonize WA mortality records across years and data systems\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Local health data analysis and communication toolkit\n\n\nA collaborative project by local health department staff in WA to produce guidelines for the analysis and reporting of common data sources with a particular attention to the…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTargeting Key Factors to Realizing Improved Global Vaccination Coverage\n\n\nProject completed while employed as a Graduate Research Assistant with UW Population Health Initiative\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWA Mortality Record Harmonization\n\n\nA collaborative project to harmonize WA mortality records across years and data systems\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/VIP-Index.html",
@@ -40,6 +40,13 @@
     "title": "Jacob Armitage",
     "section": "Experience",
     "text": "Experience\nAssessment and Evaluation Epidemiologist  - Thurston County Public Health and Social Services | March 2025 - Current\nResearch Coordinator - Seattle Epidemiological Research and Information Center, Department of Veterans Affairs | May 2024 - March 2025\nGraduate Teaching Assistant - University of Washington Institute for Public Health Genetics | March 2023 - June 2023\nGraduate Research Assistant - University of Washington Population Health Initiative | June 2022 - Dec 2022\nMolecular Biologist - Sequencing Core - Delaware Department of Health and Social Services | July 2020 - July 2021"
+  },
+  {
+    "objectID": "projects/toolkit.html",
+    "href": "projects/toolkit.html",
+    "title": "Local health data analysis and communication toolkit",
+    "section": "",
+    "text": "Analysts at local health departments, especially those working with small numbers, face many common challenges that can affect how confidently and clearly they can answer questions from leadership, community members, and the media. A group of analysts and communications professionals in Washington State, mostly working at local health jurisdictions, have produced progressive editions of the Local Health Data Analysis and Communication Toolkit to support analysts in this work.\nPersonal Role: Led the creation of a new “Coding in R section” and served as a general contributor.\nLocal health data analysis and communication toolkit, 3rd edition. (December 22, 2025, update). Available online."
   },
   {
     "objectID": "projects/WA-CHS-ETL.html",

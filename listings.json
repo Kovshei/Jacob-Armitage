@@ -6,6 +6,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/toolkit.html",
       "/projects/VIP-Index.html",
       "/projects/WA-CHS-ETL.html"
     ]

@@ -2,21 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.13">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Estimating canopy cover and forest health from satellite imagery with a reproducible geospatial pipeline.">
+<meta name="description" content="A collaborative project by local health department staff in WA to produce guidelines for the analysis and reporting of common data sources with a particular attention to the challeneges posed by small numbers.">
 
-<title>Forest Canopy Mapping – Jacob Armitage</title>
+<title>Local health data analysis and communication toolkit – Jacob Armitage</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,14 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b9bb5de7e195162b4b928ed333a06ee7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-100cd94cf99d7f5bf0fd78e0fa747d0b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b9bb5de7e195162b4b928ed333a06ee7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-26ddc3921496150b30b2b45ada465710.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-0e6b3ea19b46aeeccfeedf1ad7abaf2a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-26ddc3921496150b30b2b45ada465710.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3241f562d85ee7fe916edb7ce208dbdb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-5f6a776738486f4ae2939b3aadae58d7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3241f562d85ee7fe916edb7ce208dbdb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -61,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Forest Canopy Mapping – Jacob Armitage">
-<meta property="og:description" content="Estimating canopy cover and forest health from satellite imagery with a reproducible geospatial pipeline.">
-<meta property="og:image" content="https://kovshei.github.io/Jacob-Armitage/projects/images/photo-1530563937443-1f02f662fa5c.jpg">
+<meta property="og:title" content="Local health data analysis and communication toolkit – Jacob Armitage">
+<meta property="og:description" content="A collaborative project by local health department staff in WA to produce guidelines for the analysis and reporting of common data sources with a particular attention to the challeneges posed by small numbers.">
+<meta property="og:image" content="https://kovshei.github.io/Jacob-Armitage/projects/images/toolkit.jpg">
 <meta property="og:site_name" content="Jacob Armitage">
 </head>
 
@@ -246,20 +249,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../CV.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../projects.html"> 
-<span class="menu-text">Listing Example - Projects</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../reading_list.html"> 
 <span class="menu-text">Reading List</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> 
-<span class="menu-text">Listing Example - Talks</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../CV.pdf"> 
-<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -281,17 +280,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Forest Canopy Mapping</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Geospatial</div>
-    <div class="quarto-category">Machine Learning</div>
-    <div class="quarto-category">Remote Sensing</div>
-  </div>
-  </div>
+<h1 class="title">Local health data analysis and communication toolkit</h1>
+</div>
 
 <div>
   <div class="description">
-    Estimating canopy cover and forest health from satellite imagery with a reproducible geospatial pipeline.
+    A collaborative project by local health department staff in WA to produce guidelines for the analysis and reporting of common data sources with a particular attention to the challeneges posed by small numbers.
   </div>
 </div>
 
@@ -308,13 +302,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Placeholder content. This project classifies multispectral imagery to map canopy density and flag early signs of stress, packaged as a reproducible pipeline that re-runs as new imagery lands.</p>
-<p>Photo by <a href="https://unsplash.com/@dalenmt">Dale Nibbe</a> on <a href="https://unsplash.com/photos/6mU7uCAO64I">Unsplash</a>.</p>
+<p>Analysts at local health departments, especially those working with&nbsp;<strong>small numbers</strong>, face many common challenges that can affect how confidently and clearly they can answer questions from leadership, community members, and the media. A group of analysts and communications professionals in Washington State, mostly working at local health jurisdictions, have produced progressive editions of the&nbsp;Local Health Data Analysis and Communication Toolkit&nbsp;to support analysts in this work.</p>
+<p><strong>Personal Role:</strong> Led the creation of a new “Coding in R section” and served as a general contributor.</p>
+<p>Local health data analysis and communication toolkit, 3rd edition. (December 22, 2025, update). <a href="https://drive.google.com/file/d/17n72oLVCRCKgG3HQzVjkA0dl0umLQqGd/view?pli=1">Available online</a>.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
