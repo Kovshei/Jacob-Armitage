@@ -1,7 +1,7 @@
 ---
 title: "Local health data analysis and communication toolkit"
 description: "A collaborative project by local health department staff in WA to produce guidelines for the analysis and reporting of common data sources with a particular attention to the challeneges posed by small numbers."
-image: images\toolkit.jpg
+image: images\toolkit.png
 ---
 
 Analysts at local health departments, especially those working with **small numbers**, face many common challenges that can affect how confidently and clearly they can answer questions from leadership, community members, and the media. A group of analysts and communications professionals in Washington State, mostly working at local health jurisdictions, have produced progressive editions of the Local Health Data Analysis and Communication Toolkit to support analysts in this work.
