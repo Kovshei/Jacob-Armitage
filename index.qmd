@@ -15,7 +15,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://www.linkedin.com/in/jacob-armitage-5b2029158
 ---
 
-Jacob Armitage currently works as an Epidemiologist with research interests in Population Health Science, Demography, and the health and demographic outcomes of climate related exposures.
+Jacob Armitage currently works as an Epidemiologist with research interests in Population Health Science, Demography, and the relationship between climate-related exposures, demographic processes, and population health outcomes.
 
 ## Education
 
