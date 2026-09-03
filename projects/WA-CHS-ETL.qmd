@@ -1,6 +1,7 @@
 ---
 title: "WA Mortality Record Harmonization"
 description: "A collaborative project to harmonize WA mortality records across years and data systems"
+image: images\harm.png
 ---
 
 ## Overview
